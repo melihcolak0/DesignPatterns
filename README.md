@@ -112,9 +112,17 @@ Aşağıda projede uygulanan tasarım desenleri ve kısa açıklamaları yer alm
 
 ---
 
-## :arrow_forward: Projeden Ekran Görüntüleri
+## :arrow_forward: Bazı Tasarım Desenleri
 
-### :triangular_flag_on_post: Vitrin Paneli
+### :triangular_flag_on_post: CQRS  Paneli
+<div align="center">
+  <img src="" alt="image alt">
+</div>
+
+<div align="center">
+  <img src="https://github.com/melihcolak0/HotelierAPI/blob/33ebd051ef314a3783e9df68ebd99ad16ce7cb16/ss/localhost_47007_Default_Index.png" alt="image alt">
+</div>
+
 <div align="center">
   <img src="https://github.com/melihcolak0/HotelierAPI/blob/33ebd051ef314a3783e9df68ebd99ad16ce7cb16/ss/localhost_47007_Default_Index.png" alt="image alt">
 </div>

@@ -1,0 +1,28 @@
+﻿@model OrderDetail
+@{
+    ViewData["Title"] = "StartOrderDetail";
+    Layout = "~/Views/Shared/_FacadeLayout.cshtml";
+}
+
+<div class="container">
+    <br /> <br />
+    <form method="post">
+        <label>Müşteri Id</label>
+        <input type="text" class="form-control" asp-for="CustomerId" />
+        <br />
+        <label>Ürün Id</label>
+        <input type="text" class="form-control" asp-for="ProductId" />
+        <br />
+        <label>Sipariş Id</label>
+        <input type="text" class="form-control" asp-for="OrderId" />
+        <br />
+        <label>Ürün Fiyatı</label>
+        <input type="text" class="form-control" asp-for="ProductPrice" />
+        <br />
+        <label>Ürün Sayısı</label>
+        <input type="text" class="form-control" asp-for="ProductCount" />
+        <br />
+        <button class="btn btn-primary">Ekle</button>
+    </form>
+</div>
+

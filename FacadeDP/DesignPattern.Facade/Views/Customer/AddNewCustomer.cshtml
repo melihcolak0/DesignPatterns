@@ -1,0 +1,22 @@
+﻿@model Customer
+@{
+    ViewData["Title"] = "AddNewCustomer";
+    Layout = "~/Views/Shared/_FacadeLayout.cshtml";
+}
+
+<div class="container">
+    <br /> <br />
+    <form method="post">
+        <label>Müşteri Adı ve Soyadı</label>
+        <input type="text" class="form-control" asp-for="CustomerNameSurname"/>
+        <br />
+        <label>Adres</label>
+        <input type="text" class="form-control" asp-for="Address"/>
+        <br />
+        <label>Şehir</label>
+        <input type="text" class="form-control" asp-for="City" />
+        <br />
+        <button class="btn btn-primary">Ekle</button>
+    </form>
+</div>
+

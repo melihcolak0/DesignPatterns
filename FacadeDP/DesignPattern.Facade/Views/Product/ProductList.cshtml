@@ -1,0 +1,32 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "ProductList";
+    Layout = "~/Views/Shared/_FacadeLayout.cshtml";
+}
+
+<h3>Ürün Listesi</h3>
+
+<div class="container">
+    <br /> <br>
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Ürün</th>
+            <th>Stok</th>
+            <th>Fiyat</th>
+            <th>Kategori</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.ProductName</td>
+                <td>@item.ProductStock</td>
+                <td>@item.ProductPrice</td>
+                <td>@item.ProductCategory</td>
+            </tr>
+        }
+    </table>
+    <a href="/Product/AddNewProduct" class="btn btn-success">Yeni Ürün Ekle</a>
+</div>
+

@@ -1,0 +1,38 @@
+﻿@model List<GetProductListQueryResult>
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+    <br /> <br />
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Ürün</th>
+            <th>Fiyat</th>
+            <th>Stok Sayısı</th>
+            <th>Stok Türü</th>
+            <th>Kategori</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
+            <th>Detay</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.ProductId</th>
+                <td>@item.ProductName</td>
+                <td>@item.ProductPrice</td>
+                <td>@item.ProductStock</td>
+                <td>@item.ProductStockType</td>
+                <td>@item.ProductCategory</td>
+                <td><a href="/Default/DeleteProduct/@item.ProductId" class="btn btn-outline-danger">Sil</a></td>
+                <td><a href="/Default/UpdateProduct/@item.ProductId" class="btn btn-outline-warning">Güncelle</a></td>
+                <td><a href="/Default/GetProductById/@item.ProductId" class="btn btn-outline-dark">Detay</a></td>
+            </tr>
+        }
+    </table>
+    <a href="/Default/CreateProduct" class="btn btn-outline-primary">Yeni Ürün Ekle</a>
+</div>

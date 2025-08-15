@@ -1,0 +1,27 @@
+﻿@model GetProductByIdQueryResult
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+    <br /> <br />
+    <label>Id</label>
+    <input type="text" class="form-control" asp-for="ProductId"/>
+    <br />
+    <label>Ürün Adı</label>
+    <input type="text" class="form-control" asp-for="ProductName"/>
+    <br />
+    <label>Stok Sayısı</label>
+    <input type="text" class="form-control" asp-for="ProductStock"/>
+    <br />
+    <label>Stok Türü</label>
+    <input type="text" class="form-control" asp-for="ProductStockType"/>
+    <br />
+    <label>Fiyat</label>
+    <input type="text" class="form-control" asp-for="ProductPrice"/>
+    <br />
+    <label>Kategori</label>
+    <input type="text" class="form-control" asp-for="ProductCategory" />
+</div>

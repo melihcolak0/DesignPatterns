@@ -114,15 +114,22 @@ Aşağıda projede uygulanan tasarım desenleri ve kısa açıklamaları yer alm
 
 ## :arrow_forward: Bazı Tasarım Desenleri
 
-### :triangular_flag_on_post: CQRS  Paneli
+### :triangular_flag_on_post: CQRS Tasarım Deseni
 <div align="center">
-  <img src="" alt="image alt">
+  <img src="https://github.com/melihcolak0/DesignPatterns/blob/42091234ee7e699abe59bb35bebc34794a92513e/ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-08-15%20222848.png" alt="image alt">
 </div>
 
+### :triangular_flag_on_post: Chain of Responsibility Tasarım Deseni
 <div align="center">
-  <img src="https://github.com/melihcolak0/HotelierAPI/blob/33ebd051ef314a3783e9df68ebd99ad16ce7cb16/ss/localhost_47007_Default_Index.png" alt="image alt">
+  <img src="https://github.com/melihcolak0/DesignPatterns/blob/42091234ee7e699abe59bb35bebc34794a92513e/ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-08-15%20222814.png" alt="image alt">
 </div>
 
+### :triangular_flag_on_post: Unit of Work Tasarım Deseni
 <div align="center">
-  <img src="https://github.com/melihcolak0/HotelierAPI/blob/33ebd051ef314a3783e9df68ebd99ad16ce7cb16/ss/localhost_47007_Default_Index.png" alt="image alt">
+  <img src="https://github.com/melihcolak0/DesignPatterns/blob/42091234ee7e699abe59bb35bebc34794a92513e/ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-08-15%20222925.png" alt="image alt">
+</div>
+
+### :triangular_flag_on_post: Repository Tasarım Deseni
+<div align="center">
+  <img src="https://github.com/melihcolak0/DesignPatterns/blob/42091234ee7e699abe59bb35bebc34794a92513e/ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-08-15%20223055.png" alt="image alt">
 </div>
